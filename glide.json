@@ -1,0 +1,49 @@
+
+[
+  {
+    "kind": "column",
+    "name": "Loqode: OpenAI Chat Completion",
+    "description": "Sends a system prompt and a message to OpenAI's API and returns the response.",
+    "author": "Marco Volpato <marco@loqode.com>",
+    "params": [
+      {
+        "name": "api_key",
+        "displayName": "OpenAI API Key",
+        "type": "string"
+      },
+      {
+        "name": "system_prompt",
+        "displayName": "System Prompt",
+        "type": "string"
+      },
+      {
+        "name": "message",
+        "displayName": "Message",
+        "type": "string"
+      },
+      {
+        "name": "model",
+        "displayName": "Model",
+        "type": "string"
+      },
+      {
+        "name": "temperature",
+        "displayName": "Temperature",
+        "type": "number"
+      },
+      {
+        "name": "max_tokens",
+        "displayName": "Maximum Length",
+        "type": "number"
+      },
+      {
+        "name": "frequency_penalty",
+        "displayName": "Frequency Penalty",
+        "type": "number"
+      }
+    ],
+    "result": {
+      "type": "string"
+    }
+  }
+]
